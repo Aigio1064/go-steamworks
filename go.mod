@@ -1,4 +1,4 @@
-module github.com/aigio1064/go-steamworks
+module github.com/Aigio1064/go-steamworks
 
 go 1.25.5
 
