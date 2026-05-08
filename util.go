@@ -24,3 +24,9 @@ func CStrToString(cstr uintptr) string {
 	}
 	return string(b)
 }
+func StringToCCharPtr(s string) uintptr {
+	// 转成字节数组，末尾加 \0（C 字符串必须以 0 结尾）
+	bytes := append([]byte(s), 0)
+	// 返回指针地址（dylib 专用）
+	return uintptr(unsafe.Pointer(&bytes[0]))
+}

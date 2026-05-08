@@ -1,7 +1,7 @@
 package steamworks
 
-import "github.com/energye/dylib"
+import "github.com/ying32/dylib"
 
 type Steamworks struct {
-	dll *dylib.LazyDLL
+	LIB *dylib.LazyDLL
 }

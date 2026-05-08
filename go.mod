@@ -2,4 +2,4 @@ module github.com/Aigio1064/go-steamworks
 
 go 1.25.5
 
-require github.com/energye/dylib v0.0.0-20230814115552-32dda0972e9e
+require github.com/ying32/dylib v0.0.0-20220227124818-fdf9ea9fbc96
